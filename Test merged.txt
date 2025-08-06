@@ -1,0 +1,5 @@
+Testing merge Git branch TO CREATE A BRANCH: git checkout -b
+<name_of_branch>
+	TO Check what branch you are: git branch (see the *followed by
+	branchname)</name_of_branch
+>
