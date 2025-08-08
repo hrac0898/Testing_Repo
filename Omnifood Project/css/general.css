@@ -13,7 +13,7 @@
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .grid--2--cols {
