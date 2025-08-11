@@ -165,9 +165,7 @@ body {
 }
 
 /* Helper Class: margin-right-sm */
-.margin-right-sm{
-  margin-right: 1.6rem !important;
-}
+
 
 /* Delivered Meals */
 .delivered-meals{
@@ -377,6 +375,11 @@ body {
 
 .meal-img {
   width: 100%;
+}
+
+.all-recipes{
+  text-align: center;
+  font-size: 1.8rem;
 }
 
 
