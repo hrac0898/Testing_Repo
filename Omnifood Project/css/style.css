@@ -582,8 +582,19 @@ body {
 }
 
 .cta-text-box {
-
+  padding: 6.4rem;
+  color: #45260a;
 }
+
+.cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+} 
 
 .cta-img-box {
   background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(243, 169, 104, 0.35)), url('../img/eating.jpg');
