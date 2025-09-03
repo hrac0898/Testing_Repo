@@ -66,6 +66,11 @@
   margin-bottom: 3.2rem;
 }
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
