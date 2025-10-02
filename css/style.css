@@ -97,6 +97,8 @@ body {
   border: none;
   background-color: none;
   cursor: pointer;
+
+  display: none;
 }
 
 .icon-mobile-nav {
@@ -105,6 +107,13 @@ body {
   color: #333;
 }
 
+
+/* <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+				<ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon> */
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
 
 /* hero section */
 
