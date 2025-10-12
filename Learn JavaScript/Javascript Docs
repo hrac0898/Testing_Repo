@@ -3,4 +3,25 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 
 https://github.com/rwaldron/idiomatic.js
 
-DATA TYPES
+DATA TYPES:
+STRING
+-"HELLO"
+-String of Characters
+-Text not meant to be interpreted as code
+
+NUMBERS
+-123
+
+BOOLEAN
+-TRUE OR FALSE
+
+typeof() function
+-to know what data type is using use typeof() function
+
+JAVASCRIPT VARIABLES
+EX:
+var myName="Harold"
+
+var=keyword
+myName=Name
+"Harold"=Value
