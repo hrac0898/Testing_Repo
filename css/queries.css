@@ -201,11 +201,18 @@ Instead, 1rem = 1em = 16px */
     }
 
     .grid--footer {
-        grid-template-columns:  1fr 1fr 1fr;
+        grid-template-columns: repeat(6, 1fr);
     }
+
+    .logo-col,
+    .address-col {
+    grid-column: span 3;
+  }
 
     .nav-col {
         grid-row: 1;
+    grid-column: span 2;
+    margin-bottom: 3.2rem;
     }
 }
 
@@ -274,5 +281,7 @@ Instead, 1rem = 1em = 16px */
         height: 32rem;
         grid-row: 1;
     }
+
+    
 }
 
