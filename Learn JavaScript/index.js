@@ -1,2 +1,4 @@
-document.getElementById("heading")
-        .innerHTML="Ray"
+console.log('Hello World');
+
+const myName = "Harold Castro";
+console.log(myName);
