@@ -1,30 +1,9 @@
-console.log('Hello World');
 
-const myName = "Harold Ray Castro";
-const h1 = document.querySelector(".heading-primary");
-console.log(myName);
+//STRING EXERCISE
+// var typeCharacter = prompt("Go Tweet");
 
-//  h1.textContent= myName;
+// var characterLengthLimit =  (140 - typeCharacter.length) != 0;
 
-
-h1.addEventListener('click', function () {
-    h1.textContent = myName;
-});
-
-
-// Set current year
-const yearEL = document.querySelector('.year');
-const currentYear = new Date().getFullYear();
-console.log(currentYear);
-yearEL.textContent = currentYear
-
-//Make Mobile Navigation Work
-
-const btnNavEl = document.querySelector('.btn-mobile-nav');
-
-const headerEl = document.querySelector('.header');
-
-btnNavEl.addEventListener('click', function() {
-    headerEl.classList.toggle('nav-open');
-});  
+// console.log("You have written " + typeCharacter.length + " characters. " + "You still have " + characterLengthLimit)
+// alert(typeCharacter.slice(0,140))
 
